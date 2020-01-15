@@ -1,0 +1,138 @@
+@font-face{
+    font-family: sans;
+    src: url('../fonts/Vazir-Medium.eot');
+    src: url('../fonts/Vazir-Medium.ttf') format('truetype'),
+        url('../fonts/Vazir-Medium.woff') format('woff'),
+        url('../fonts/Vazir-Medium.eot?#iefix') format('FontName-opentype');
+        font-weight: normal;
+        font-style: normal;
+}
+*,*::after,*::before{
+    
+	-webkit-box-sizing: border-box !important;
+	-moz-box-sizing: border-box !important;
+	-ms-box-sizing: border-box !important;
+	box-sizing: border-box !important;
+
+}
+body{
+    font-family:sans;
+    font-size: 13px;
+    margin: 0px;
+    padding: 0px;
+    direction: rtl;
+}
+a{
+    text-decoration: none;
+}
+.txt-center{
+    text-align: center;
+}
+.color-red{
+    color:#ba0000;
+}
+header{
+    height: 50px;
+    border: 1px solid;
+    line-height: 50px;
+    font-size: 15px;
+
+}
+header img.logo{
+    height: 30px;
+    vertical-align: middle;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+header ul.menu{
+    margin:0;
+    padding: 0;
+    list-style: none;
+    display: inline;
+}
+header ul.menu a{
+    margin-left: 15px;
+    color: #000000ba;
+    text-decoration: none;
+    display: inline-block;
+}
+header ul.menu a:hover{
+    color: #00000066;
+}
+header ul.menu a li{
+    display: inline;
+}
+header ul.left-menu{
+    float: left;
+    list-style: none;
+    margin: 0;
+}
+header ul.left-menu a li{
+    background:#ba0000;
+    color: #FFF;
+    display: inline;
+    border-radius: 5px;
+    padding: 8px;
+    margin-left: 10px;
+}
+/* SECTIN */
+section div.description{
+    padding: 20px 40px;
+}
+section div.description a{
+    color:#ba0000;
+}
+section div.description p span{
+    font-weight: bold;
+}
+/* section div.description p.center{
+    text-align: center;
+} */
+section div.description hr{
+    opacity: 0.5;
+}
+
+/* section div.description div.icons{
+    /* border: 1px solid ; */
+    /* text-align: center; */
+/* } */
+
+section div.location{
+    padding: 20px 40px;
+    /* border: 1px solid; */
+}
+
+section div.location a{
+    border: 1px solid #ba0000;
+    color: #ba0000;
+    width: 17%;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+/* PAGE STYLE */
+section.page{
+    width: 100%;
+    /* background: #ba0000; */
+    display: flex;
+}
+section aside{
+    border: 1px solid black;
+    width: 230px;
+    /* float: right; */
+    /* background: blue; */
+}
+section div.content{
+    border: 1px solid black;
+    height: 50px;
+    /* background: chartreuse; */
+    width: 100%;
+}
+aside ul{
+    list-style: none;
+}
+aside ul a{
+    color: rgb(29, 29, 29);
+}
